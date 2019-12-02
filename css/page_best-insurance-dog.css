@@ -1,0 +1,80 @@
+.insurance-company {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 979px) and (min-width: 769px) {
+  .insurance-company {
+    margin: 30px -20px 0 -40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .insurance-company {
+    margin: 30px -40px 0 -40px;
+  }
+}
+
+.insurance-table {
+  border: 0;
+  border-collapse: collapse;
+  border: none;
+  font-family: "Arial", sans-serif;
+  font-size: 14.0pt
+}
+
+.insurance-table td,
+.insurance-table th {
+  padding: 0in 5.4pt 0in 5.4pt;
+}
+
+.insurance-table p {
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.insurance-table__heading {
+  color: #4EA3C8;
+  height: 25px;
+}
+
+.insurance-table__category {
+  min-width: 58px;
+  box-sizing: border-box;
+}
+
+.insurance-table__column-heading {
+  height: 72.45pt;
+  color: #4EA3C8;
+}
+
+.insurance-table__company {
+  height: 49.65pt;
+}
+
+.insurance-table__rank {
+  font-weight: 600;
+  text-align: center;
+  color: #6AA84F;
+}
+
+.insurance-table__number img {
+  min-width: 30px;
+}
+
+/* .insurance-table__link a {
+  text-decoration: underline;
+  color: #22D16C;
+} */
+
+/* @media screen and (min-width: 980px) { */
+  .insurance-table__link a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .insurance-table__link a:hover {
+    text-decoration: underline;
+    color: #22D16C;
+  }
+/* } */
