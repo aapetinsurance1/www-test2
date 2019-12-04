@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/sl-slide.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/page_best-insurance2.css">
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <link rel="shortcut icon" href="images/title_logo.png">
 </head>
@@ -125,7 +126,7 @@
                         <h3 style="color: #333333;">Pet Insurance Basics</h3>
 
                         <div class="col-lg-6 col-lg-offset-3 text-left" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #333333; margin-top: 0px; margin-bottom: 0px'">
-                            <img id="pet_img" width="30%" align="right" style="padding: 10px;"  src="images/dog.jpg" alt="Dog Thinking About Pet Insurance" />
+                            <img id="pet_img" width="30%" align="right" style="padding: 10px;"  src="images/dog2.jpg" alt="Dog Thinking About Pet Insurance" />
                             Veterinary pet insurance typically covers pets for injuries and illnesses. 
                             As the cost of veterinary care is rising all across the United States, more and more pet parents 
                             opt for pet insurance to make sure they can afford better health care for their furry friends. 
@@ -146,6 +147,9 @@
                             Top pet insurance companies according to consumersadvocate.org are:
                             
                             <br>&nbsp;<br>
+                           <table class="insurance-table2" cellspacing=0 cellpadding=0>
+                                <tbody>
+                                    <tr><td>                            
                             <ul id="action_ul">
                                 <li> <a href="https://www.healthypawspetinsurance.com/" class="btn btn-large btn-primary">
                             Healthy Paws</a></li>
@@ -157,6 +161,19 @@
                             style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;" class="btn btn-large btn-primary">
                             Embrace</a></li>
                             </ul>
+                            </td></tr>
+                                </tbody>
+                              </table>
+
+                        <script>
+                        document.querySelector('.insurance-table2').addEventListener('click', function(event) {
+                        gtag('event', 'click', {
+                        'event_category': '101 Insurance click',
+                        'event_label': event.target.href
+                        });
+                        });
+                        </script>
+
                         </div>
                         
                     </div>
