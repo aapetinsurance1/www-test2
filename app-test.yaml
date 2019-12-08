@@ -1,0 +1,23 @@
+runtime: python37
+
+handlers:
+
+- url: /Thanksgiving
+  static_files: www-test2/Thanksgiving/index.html
+  upload: www-test2/Thanksgiving/index.html
+
+- url: /Thanksgiving/
+  static_files: www-test2/Thanksgiving/index.html
+  upload: www-test2/Thanksgiving/index.html
+
+- url: /Thanksgiving(.*)
+  static_files: www-test2/Thanksgiving/\1
+  upload: www-test2/Thanksgiving/(.*)
+
+- url: /
+  static_files: www-test2/index.html
+  upload: www-test2/index.html
+
+- url: /(.*)
+  static_files: www-test2/\1
+  upload: www-test2/(.*)
